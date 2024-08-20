@@ -1,27 +1,68 @@
 import React from 'react';
 
-const Contact = () => {
+const ContactUs = () => {
   return (
-    <section id="contact" className="py-20 bg-white text-center">
-      <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
-      <p className="text-lg max-w-xl mx-auto mb-8">We would love to hear from you! Please fill out the form below and we'll get in touch with you shortly.</p>
-      <form className="max-w-lg mx-auto">
-        <div className="mb-4">
-          <label className="block text-left mb-2" htmlFor="name">Name</label>
-          <input className="w-full px-4 py-2 border rounded-lg" type="text" id="name" name="name" placeholder="Your Name" />
+    <div className="bg-white">
+      <header className="bg-blue-700 text-white text-center py-8">
+        <h1 className="text-3xl font-bold mt-8">Contact Us</h1>
+      </header>
+      <section className="text-center py-8 px-4">
+        <h2 className="text-xl font-bold">Get In Touch</h2>
+        <p className="mt-2 text-gray-700 max-w-2xl mx-auto">
+          We are here to help you. Reach out to us via any of the following methods.
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-6 animate-fadeIn">
+          <div className="p-4 shadow-lg rounded-lg bg-blue-100 hover:bg-blue-200 transition-colors">
+            <h3 className="text-lg font-bold">Call Us</h3>
+            <p className="text-gray-700 mt-2">+1 123 456 7890</p>
+          </div>
+          <div className="p-4 shadow-lg rounded-lg bg-blue-100 hover:bg-blue-200 transition-colors">
+            <h3 className="text-lg font-bold">Email Us</h3>
+            <p className="text-gray-700 mt-2">contact@wisedoctors.com</p>
+          </div>
+          <div className="p-4 shadow-lg rounded-lg bg-blue-100 hover:bg-blue-200 transition-colors">
+            <h3 className="text-lg font-bold">Visit Us</h3>
+            <p className="text-gray-700 mt-2">123 Health St, Wellness City</p>
+          </div>
         </div>
-        <div className="mb-4">
-          <label className="block text-left mb-2" htmlFor="email">Email</label>
-          <input className="w-full px-4 py-2 border rounded-lg" type="email" id="email" name="email" placeholder="Your Email" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-left mb-2" htmlFor="message">Message</label>
-          <textarea className="w-full px-4 py-2 border rounded-lg" id="message" name="message" rows="4" placeholder="Your Message"></textarea>
-        </div>
-        <button className="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition" type="submit">Send Message</button>
-      </form>
-    </section>
+      </section>
+      <section className="bg-blue-50 py-8 px-4">
+        <h2 className="text-xl font-bold text-center">Send Us A Message</h2>
+        <form className="max-w-2xl mx-auto mt-6 space-y-6">
+          <div>
+            <label htmlFor="name" className="block text-gray-700 font-bold">Name</label>
+            <input
+              type="text"
+              id="name"
+              className="w-full mt-2 p-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
+            />
+          </div>
+          <div>
+            <label htmlFor="email" className="block text-gray-700 font-bold">Email</label>
+            <input
+              type="email"
+              id="email"
+              className="w-full mt-2 p-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
+            />
+          </div>
+          <div>
+            <label htmlFor="message" className="block text-gray-700 font-bold">Message</label>
+            <textarea
+              id="message"
+              rows="4"
+              className="w-full mt-2 p-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            className="w-full bg-blue-700 text-white py-2 rounded-lg shadow-lg hover:bg-blue-600 transition-colors"
+          >
+            Send Message
+          </button>
+        </form>
+      </section>
+    </div>
   );
 };
 
-export default Contact;
+export default ContactUs;
