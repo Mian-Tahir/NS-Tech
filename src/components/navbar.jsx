@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="bg-white border-gray-200 dark:bg-gray-900 fixed w-full top-0 z-10">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center">
-          <img src={logo} className="h-20 w-20"   alt="Logo" />
+          <img src={logo} className="h-32 w-auto"   alt="Logo" />
           
         </a>
         <button
@@ -56,7 +56,7 @@ const Navbar = () => {
               <Link to="team" smooth={true} duration={500} className="cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Our Team</Link>
             </li>
             <li>
-              <Link to="contact" smooth={true} duration={500} className="cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</Link>
+              <Link to="contact" smooth={true} duration={500} className="cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact Us</Link>
             </li>
           </ul>
         </div>
