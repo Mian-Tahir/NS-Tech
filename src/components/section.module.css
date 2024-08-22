@@ -1,0 +1,7 @@
+/* Section.module.css */
+.section {
+    padding: 4rem 0;
+    background-color: #f3f4f6; /* Tailwind's gray-100 */
+    border-bottom: 1px solid #e5e7eb; /* Tailwind's gray-300 */
+  }
+  
