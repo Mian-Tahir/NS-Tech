@@ -1,12 +1,19 @@
-
 import React from 'react';
+import video from "../../public/home video.mp4";
 
 const Home = () => {
   return (
-    <section id="home" className="bg-gray-800 text-white h-screen flex flex-col justify-center items-center">
-      <h2 className="text-4xl font-bold mb-4">Empowering the Now</h2>
-      <p className="text-xl mb-8">Transforming visions into reality through reliable technology.</p>
-      <button className="bg-blue-600 px-6 py-3 rounded-full hover:bg-blue-700 transition">Learn More</button>
+    <section id="home" className="bg-gray-800 h-full flex justify-center items-center">
+      <video
+        className="w-full h-full object-cover"
+        autoPlay
+        loop
+        muted
+        playsInline
+      >
+        <source src={video} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
     </section>
   );
 };
