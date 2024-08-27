@@ -5,7 +5,7 @@ const teamMembers = [
   {
     name: 'John Doe',
     role: 'Software Engineer',
-    imgSrc: 'https://spacema-dev.com/elevate/assets/images/team/1.jpg',
+    imgSrc: '../../public/pic.jpg',
     social: {
       facebook: '#',
       linkedin: '#',
@@ -15,7 +15,7 @@ const teamMembers = [
   {
     name: 'Jane Smith',
     role: 'Graphic Designer',
-    imgSrc: 'https://spacema-dev.com/elevate/assets/images/team/4.jpg',
+    imgSrc: '../../public/pic.jpg',
     social: {
       facebook: '#',
       linkedin: '#',
@@ -25,7 +25,7 @@ const teamMembers = [
   {
     name: 'Alex Johnson',
     role: 'Marketing Manager',
-    imgSrc: 'https://spacema-dev.com/elevate/assets/images/team/3.jpg',
+    imgSrc: '../../public/pic.jpg',
     social: {
       facebook: '#',
       linkedin: '#',
@@ -35,7 +35,7 @@ const teamMembers = [
   {
     name: 'Peter Johnson',
     role: 'SEO Specialist',
-    imgSrc: 'https://spacema-dev.com/elevate/assets/images/team/2.jpg',
+    imgSrc: '../../public/pic.jpg',
     social: {
       facebook: '#',
       linkedin: '#',
@@ -45,7 +45,7 @@ const teamMembers = [
   {
     name: 'Emily Brown',
     role: 'UX Designer',
-    imgSrc: 'https://spacema-dev.com/elevate/assets/images/team/5.jpg',
+    imgSrc: '../../public/pic.jpg',
     social: {
       facebook: '#',
       linkedin: '#',
@@ -55,7 +55,7 @@ const teamMembers = [
   {
     name: 'Michael Davis',
     role: 'Frontend Developer',
-    imgSrc: 'https://spacema-dev.com/elevate/assets/images/team/6.jpg',
+    imgSrc: '../../public/pic.jpg',
     social: {
       facebook: '#',
       linkedin: '#',
@@ -65,7 +65,7 @@ const teamMembers = [
   {
     name: 'Sarah Johnson',
     role: 'Content Writer',
-    imgSrc: 'https://spacema-dev.com/elevate/assets/images/team/7.jpg',
+    imgSrc: '../../public/pic.jpg',
     social: {
       facebook: '#',
       linkedin: '#',
@@ -75,7 +75,7 @@ const teamMembers = [
   {
     name: 'David Wilson',
     role: 'Project Manager',
-    imgSrc: 'https://spacema-dev.com/elevate/assets/images/team/8.jpg',
+    imgSrc: '../../public/pic.jpg',
     social: {
       facebook: '#',
       linkedin: '#',
